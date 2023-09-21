@@ -1,0 +1,138 @@
+@font-face{
+    font-family: Intro;
+    src: url('/bemmaket/assets/styles/fonts/IntroDemo-BlackInlineCAPS.woff2') format(woff2);
+}
+@font-face{
+    font-family: Roboto Slab;
+    src: url('/bemmaket/assets/styles/fonts/RobotoSlab.woff2') format(woff2);
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 89px 76px;
+}
+.footer_menu{
+    display: flex;
+    justify-content: flex-start;
+    margin: 80px 126px;
+}
+.opportunity{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(440px, 1fr));
+    grid-template-rows: 1fr 1fr;
+}
+.header_menu_btn{
+    width: 115px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color:  #5222D0;
+    font-family: 'Intro' ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .link{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .main_title{
+        width: 542px;
+        color: var(--, #000);
+        font-family: 'Intro' ;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; 
+        margin: 0 126px ;
+    }
+    .footer_menu_item{
+        list-style-type: none;
+        padding: 0;
+      }
+      .link_footer_menu{
+          color:  #000;
+      font-family: 'Roboto Slab';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 160%;
+      padding: 20px;
+      }
+      .img_background{
+        background-color:#EC615B; 
+        width: 365px;
+        height: 233px;
+        flex-shrink: 0;
+      }
+      .opportunity_picture{
+        width: 440px;
+        height: 550px;
+        flex-shrink: 0;
+        margin: 14px 92px;
+      }
+      .subscribe_form{
+        width: 323px;
+        height: 50px;
+        background: #FFF;
+        margin: 0 20px;
+      }
+      .opportunity_text{
+        width: 440px;
+        height: 259px;
+        margin: 14px 92px;
+      }
+      .subscribe{
+        width: 365px;
+        height: 233px;
+        background:  #EC615B;
+        margin: 14px 92px;
+
+      }
+      .subscribe_btn{
+        width: 135px;
+        height: 38px;
+        border-radius: 100px;
+        background-color:  #5222D0;
+        font-family: 'Intro' ;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 18px 23px;
+
+      }
+      .opportunity_picture_title, .opportunity_text_title{
+        width: 365px;
+        color:  #000;
+        font-family: 'Intro' ;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        margin: 30px 0;
+        text-align: left;
+      }
+      .opportunity_picture_description, .opportunity_text_description{
+        width: 365px;
+        color: #000;
+        font-family: 'Roboto Slab';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 160%;
+      }
+      .subscribe_title{
+        width: 325px;
+        color:  #FFF;
+        font-family: 'Intro' ;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        margin:20px 18px;
+        text-align: left;
+
+      }
+    

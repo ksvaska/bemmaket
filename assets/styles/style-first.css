@@ -1,0 +1,81 @@
+@font-face{
+    font-family: Intro;
+    src: url('/bemmaket/assets/styles/fonts/IntroDemo-BlackInlineCAPS.woff2') format(woff2);
+}
+@font-face{
+    font-family: Roboto Slab;
+    src: url('/bemmaket/assets/styles/fonts/RobotoSlab.woff2') format(woff2);
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 74px;
+}
+.footer_menu{
+    display: flex;
+    justify-content: flex-start;
+    margin: 80px 126px;
+}
+.main_title{
+width: 542px;
+color: var(--, #000);
+font-family: 'Intro' ;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+margin: 0 126px ;
+}
+.main_information{
+width: 487px;
+color: var(--, #000);
+font-family: 'Roboto Slab';
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%;
+margin: 0 126px ;
+}
+
+.header_menu_btn{
+width: 115px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 100px;
+background-color:  #5222D0;
+font-family: 'Intro' ;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.link{
+    text-decoration: none;
+    color: #FFF;
+}
+.main_btn_buy{
+    width: 270px;
+height: 84px;
+flex-shrink: 0;
+background-color:  #5222D0;
+border-radius: 120px;
+font-family: 'Intro' ;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 30px 116px;
+}
+.footer_menu_item{
+  list-style-type: none;
+  padding: 0;
+}
+.link_footer_menu{
+    color: #5222D0;
+font-family: 'Roboto Slab';
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%;
+padding: 20px;
+}
